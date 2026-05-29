@@ -26,7 +26,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/test-db", async (req, res) => {
+app.get("/restaurant", async (req, res) => {
   try {
     const [rows] = await db.query("SELECT 1 + 1 AS result");
     res.json({

@@ -1,3 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS restaurant;
+USE restaurant;
 SET FOREIGN_KEY_CHECKS = 0;
 
 DROP TABLE IF EXISTS high_salary_positions;
@@ -278,7 +280,7 @@ INSERT INTO Recipes (dish_id, product_id, quantity_grams) VALUES
 (1, 1, 100), (1, 4, 50), (1, 11, 5), 
 (4, 5, 80), (4, 8, 30), 
 (6, 4, 300), (6, 10, 5), 
-(13, 14, 10), -
+(13, 14, 10), 
 (7, 5, 150), (7, 13, 20), 
 (11, 8, 100), (11, 14, 30),
 (9, 13, 100), (9, 2, 50), (9, 8, 20); 

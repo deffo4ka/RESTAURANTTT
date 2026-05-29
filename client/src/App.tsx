@@ -193,7 +193,7 @@ function App() {
       loadSupplyReport();
       loadFinancialReport();
     }
-  }, [activeTab]);
+  }, [ ]);
 
   const loadAllData = () => {
     loadProducts();
